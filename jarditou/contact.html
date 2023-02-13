@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>jarditou</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="header1">
+        <div id="flexhead-contact">
+            <div id="DIVlogo-contact">
+                <img id="logo1-contact" src="assets/img/jarditou_logo.jpg" alt="Logo Jarditou" width="20%" height="auto"
+                    title="Logo Jarditou">
+            </div>
+            <div>
+                <small>
+                    <subtitle>
+                        <div id="title-contact">Tout le jardin</div>
+                    </subtitle>
+                </small>
+            </div>
+        </div>
+
+        <nav>
+            <ul type="disc" class="nav1">
+                <li><a class="onglet" href="index.html" title="Accueil">Accueil</a></li>
+                <li><a class="onglet" href="tableau.html" title="Tableau">Tableau</a></li>
+                <li><a class="onglet" href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img src="assets/img/promotion.jpg" alt="Promotion" title="promotion" width="100%">
+        <br>
+    </section>
+
+    <div id="leflex-contact">
+        <div id="DIVsection-contact">
+            <section id="section1">
+
+                <h1>Contact</h1>
+                <hr>
+                <div id="marge">
+                    <form action="http://bienvu.net/script.php" method="post" id="contact" name="contact" >
+                        * Ces zones sont obligatoires
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Vos coordonnées</legend>
+
+                            <div class="form-group">
+                                <br> <label for="nom">Votre nom*:</label>
+                                <input type="text" name="nom" id="nom" placeholder="Votre nom">
+                                <br>
+                                <span id="ernom" class="cler"></span>
+                                <br>
+                            </div>
+
+                            <div class="form-group">
+                                <br> <label for="prénom">Votre prénom*:</label>
+                                <input type="text" name="prénom" id="prénom" placeholder="Votre prénom" value="">
+                                <br>
+                                <span id="erprénom" class="cler"></span>
+                            </div>
+                            <br>
+
+                            <label for="sexe">Sexe*:</label><input name="civilite" type="radio" id="fem"
+                                value="Femme">Féminin<input name="civilite" type="radio" id="hom" value="Homme">Masculin
+                            <br>
+                            <span id="ersexe" class="cler"></span>
+                            <br>
+
+                            <label for="date">Date de naissance*: </label> <input type="date" name="ddn" id="date">
+                            <br>
+                            <span id="erdate" class="cler"></span>
+                            <br>
+
+                            <br> <label for="code postal">Code postal*:</label> <input type="code postal" name="cp"
+                                id="cp" placeholder="Votre Code Postal" value="">
+                            <br>
+                            <span id="ercp" class="cler"></span>
+                            <br>
+
+                            <label for="adresse">Adresse:</label> <input type="adr" name="adr" id="adr"
+                                placeholder="Votre adresse" value="">
+                            <br>
+                            <span id="eradr" class="cler"></span>
+                            <br>
+
+                            <br> <label for="ville">Ville:</label> <input type="ville" name="ville" id="ville"
+                                placeholder="Votre ville" value="">
+                            <br>
+                            <span id="erville" class="cler"></span>
+                            <br>
+
+                            <br><label for="?">Email*:</label><input type="email" placeholder="dave.loper@afpa.fr"
+                                id="email">
+                            <br>
+                            <span id="eremail" class="cler"></span>
+                            <br>
+
+                            <br><label for="controle">Confirmation Email*:</label><input type="controle" name="controle"
+                                id="controle">
+                            <br>
+                            <span id="ercontrole" class="cler"></span>
+                            <br>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>Votre demande</legend>
+                            <br>
+                            <br><label for="sujet">Sujet*:</label> <select name="sujet" id="sujet">
+                                <option value="Veuillez sélectionner un sujet">Veuillez sélectionner un sujet</option>
+                                <option value="Mescommandes">Mes commandes</option>
+                                <option value="Question sur un produit">Question sur un produit</option>
+                                <option value="Réclamation">Réclamation</option>
+                                <option value="Autres">Autres</option>
+                            </select>
+                            <br>
+                            <span id="ersujet" class="cler"></span>
+                            <br>
+                            <br><label for="question">Votre question*:</label><br><textarea name="question"
+                                id="question" cols="80" rows="2" placeholder="Votre question" value=""></textarea>
+                            <br>
+                            <span id="erquestion" class="cler"></span>
+                            <br>
+                        </fieldset>
+                        <br> <input type="checkbox" id="check"> * J'accepte le traitement informatique de ce
+                        formulaire
+                        <br>
+                        <span id="ercheck" class="cler"></span>
+                        <br>
+                        <br><input type="submit" value="Envoyer" id="submit"> <input type="reset" value="Annuler"
+                            id="reset">
+                    </form>
+                    </form>
+                </div>
+
+            </section>
+        </div>
+        <div id="DIVaside-contact">
+            <aside id="aside-contact">
+                <p>[COLONNE DROITE]</p>
+            </aside>
+        </div>
+
+    </div>
+
+    <footer>
+        <ul type="disc" class="nav1">
+            <li><a class="onglet" href="Mention légales" title="Mention légales">Mention légales</a></li>
+            <li><a class="onglet" href="Horaires" title="Horaires">Horaires</a></li>
+            <li><a class="onglet" href="Plan du site" title="Plan du site">Plan du site</a></li>
+        </ul>
+    </footer>
+    <script src="assets/js/JS script.js/ evaluation exercice 5.js"></script>
+</body>
+
+</html>

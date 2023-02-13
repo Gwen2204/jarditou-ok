@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2,th,.onglet,label{
+    font-size: 16px;
+}
+
+a,p,li,h3,span{
+    font-size: 14px;
+}
+
+#logo1-index,#logo1-contact,#logo1-tableau {
+    margin: 10px;
+    width: 300px;
+}
+
+#flexhead-index,#flexhead-tableau,#flexhead-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title-index,#title-tableau,#title-contact {
+    margin-top: 35px;
+    font-style: normal;
+    line-height: 1.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+    color: rgb(27, 119, 122);
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(245, 57, 32), 0 0 1em rgb(27, 119, 122);
+}
+
+
+#DIVlogo-index,#DIVlogo-tableau,#DIVlogo-contact {
+    width: 50%
+}
+
+a {
+    color: white;
+
+}
+
+#leflex-index,#leflex-tableau,#leflex-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#DIVaside-index,#DIVaside-tableau,#DIVaside-contact {
+    width: 20%;
+    margin-bottom: 45px;
+
+}
+
+#aside-index,#aside-tableau,#aside-contact {
+    background-color: rgba(128, 128, 128, 0.404);
+    height: 100%;
+}
+
+#DIVsection-index,#DIVsection-tableau,#DIVsection-contact {
+    width: 80%;
+    
+
+}
+
+.nav1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(4, 56, 4);
+    color: white;
+    margin-block: 5px;
+
+}
+
+li,
+h1,
+h2,
+p {
+    margin: 20px
+    
+}
+
+.cler{
+    color : red;
+    margin-left : 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #DIVaside-index,#DIVaside-tableau,#DIVaside-contact {
+        display: none
+    }
+
+    #DIVsection-index,#DIVsection-tableau,#DIV-contact {
+        width: 100%
+
+    }
+
+    #title-index,#title-tableau,#title-contact {
+        display: none
+    }
+
+    .nav1 {
+
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+    }
+
+    li{
+        margin: 3px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+    
+    h2,th,.onglet,label{
+        font-size: 14px;
+    }
+    
+    a,p,li,h3,span{
+        font-size: 12px;
+    }
+        
+}
+tbody
+table,
+td,
+tr {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#marge,legend, input, select, textarea, label {
+    margin: 5px;
+    margin-left: 10px;
+    
+
+}
+
+#marge1 {
+    margin: 20px;
+}
